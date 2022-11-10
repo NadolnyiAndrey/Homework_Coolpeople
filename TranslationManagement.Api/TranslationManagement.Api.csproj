@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\External.ThirdParty.Services\External.ThirdParty.Services.csproj" />
+    <ProjectReference Include="..\TranslationManagemen.BL\TranslationManagemen.BL.csproj" />
   </ItemGroup>
 
 </Project>

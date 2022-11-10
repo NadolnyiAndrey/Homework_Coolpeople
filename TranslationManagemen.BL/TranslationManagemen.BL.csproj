@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\External.ThirdParty.Services\External.ThirdParty.Services.csproj" />
+    <ProjectReference Include="..\TranslationManagement.DAL\TranslationManagement.DAL.csproj" />
+  </ItemGroup>
+
+</Project>
